@@ -12,7 +12,7 @@
     "test": "run-p --race dev cy:run"
   },
   "dependencies": {
-    "aws-amplify": "^1.2.2",
+    "aws-amplify": "ehemmerlin/aws-amplify",
     "compression": "^1.7.1",
     "lodash": "^4.17.15",
     "polka": "next",
@@ -24,8 +24,5 @@
     "svelte": "^3.0.0",
     "svelte-loader": "^2.9.0",
     "webpack": "^4.7.0"
-  },
-  "resolutions": {
-    "aws-amplify/**/graphql": "^0.13.0"
   }
 }
